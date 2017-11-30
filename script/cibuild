@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
-bundle exec jekyll build
+bundle install
+
+jekyll build
 
 #$HOME/.local/bin/html5validator --root ./_deploy
 #bundle exec htmlproofer ./_deploy --disable-external
