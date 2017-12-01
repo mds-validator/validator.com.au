@@ -21,4 +21,5 @@ RUN jekyll build
 #./node_modules/a11y/cli.js {_site/*.html,_site/**/*.html}
 
 FROM nginx
+COPY nginx.d/default.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /build/_deploy /usr/share/nginx/html
