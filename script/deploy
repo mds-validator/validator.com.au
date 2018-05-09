@@ -28,6 +28,10 @@ git diff-tree -r --name-only --no-commit-id master
 
 git diff-tree -r --name-only --no-commit-id master | grep '^_site/'
 
+git status -s | grep "^..\s_site"
+
+git status -s | grep -q "^..\s_site"
+
 status=$?
 
 echo status=$status
