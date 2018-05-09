@@ -17,8 +17,15 @@ ssh-add .travis/deploy-key
 
 #git diff --quiet --exit-code --cached || git commit -m 'Add build artefacts'
 set +e
-git diff-tree -r --name-only --no-commit-id master | grep '^_site/' &> /dev/null
+
+# git diff-tree -r --name-only --no-commit-id master | grep '^_site/' &> /dev/null
+
+git diff-tree -r --name-only --no-commit-id master | grep '^_site/'
+
 status=$?
+
+echo status=$status
+
 set -e
 if [ $status == 0 ]; then
   git add -A
