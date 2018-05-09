@@ -14,8 +14,14 @@ openssl aes-256-cbc \
 eval "$(ssh-agent -s)" #start the ssh agent
 chmod 600 .travis/deploy-key
 ssh-add .travis/deploy-key
-git config --global push.default simple
-git add -A
-git diff --quiet --exit-code --cached || git commit -m 'Add build artefacts'
-git remote add production git@github.com:mds-validator/validator.com.au.git
-git push production HEAD:production --force
+
+git diff-tree -r --name-only --no-commit-id master | grep '^_site/' &> /dev/null
+if [ $? == 0 ]; then
+  git push origin `git subtree split --prefix _site master 2> /dev/null`:gh-pages --force
+fi
+
+#git config --global push.default simple
+#git add -A
+#git diff --quiet --exit-code --cached || git commit -m 'Add build artefacts'
+#git remote add production git@github.com:mds-validator/validator.com.au.git
+#git push production HEAD:production --force
