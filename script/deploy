@@ -37,5 +37,5 @@ if [ $status == 0 ]; then
   git add -A
   git commit -m 'Add build artefacts'
   git remote add pages git@github.com:mds-validator/validator.com.au.git
-  git push pages `git subtree split --prefix _site master 2> /dev/null`:gh-pages --force
+  git push pages `git subtree split --prefix _site 2> /dev/null`:gh-pages --force
 fi
