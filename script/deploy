@@ -16,7 +16,7 @@ chmod 600 .travis/deploy-key
 ssh-add .travis/deploy-key
 
 #git diff --quiet --exit-code --cached || git commit -m 'Add build artefacts'
-unset -e
+set +e
 git diff-tree -r --name-only --no-commit-id master | grep '^_site/' &> /dev/null
 status=$?
 set -e
