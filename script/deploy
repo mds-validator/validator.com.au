@@ -15,7 +15,7 @@ eval "$(ssh-agent -s)" #start the ssh agent
 chmod 600 .travis/deploy-key
 ssh-add .travis/deploy-key
 
-sed -i "" '_site/' ./.gitignore
+sed -i "" '/_site\//d' ./.gitignore
 git add .
 git commit -m "Edit .gitignore to publish"
 git remote add pages git@github.com:mds-validator/validator.com.au.git
