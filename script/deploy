@@ -22,6 +22,8 @@ set +e
 
 ls -l _site
 
+grep -- '-- change' _site/index.html
+
 git diff-tree -r --name-only --no-commit-id master
 
 git diff-tree -r --name-only --no-commit-id master | grep '^_site/'
