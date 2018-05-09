@@ -15,9 +15,10 @@ eval "$(ssh-agent -s)" #start the ssh agent
 chmod 600 .travis/deploy-key
 ssh-add .travis/deploy-key
 
-perl -n -i -e "print unless /^_site\/$/" ./.gitignore 
+# Edit .gitignore to publish
+perl -n -i -e "print unless /^_site\/$/" ./.gitignore
 git add .
-git commit -m "Edit .gitignore to publish"
+git commit -m "Commit build artefacts for publishing"
 git remote add pages git@github.com:mds-validator/validator.com.au.git
 git push pages `git subtree split --prefix _site 2> /dev/null`:gh-pages --force
 git reset HEAD~
