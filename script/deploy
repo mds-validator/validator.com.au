@@ -20,6 +20,8 @@ set +e
 
 # git diff-tree -r --name-only --no-commit-id master | grep '^_site/' &> /dev/null
 
+git diff-tree -r --name-only --no-commit-id master
+
 git diff-tree -r --name-only --no-commit-id master | grep '^_site/'
 
 status=$?
