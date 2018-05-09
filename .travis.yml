@@ -15,8 +15,8 @@ branches:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
-deploy:
-  provider: script
-  script: ./script/deploy
-  on:
-    branch: master
+#deploy:
+#  provider: script
+#  script: ./script/deploy
+#  on:
+#    branch: master
