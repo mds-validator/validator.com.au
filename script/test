@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+docker-compose run site jekyll build
+
+docker-compose run site htmlproofer /srv/jekyll/_site --disable-external --url-ignore "/^#$/" \
+  || echo "Fail!"
+
+#docker-compose run site html5validator
+#  || echo "Fail!"
