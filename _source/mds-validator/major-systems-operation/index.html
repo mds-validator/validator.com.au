@@ -53,17 +53,17 @@
   <!-- Added for Table of Contents jQuery Plugin -->
   <script src="../../site/templates/scripts/jquery.tableofcontents.min.js" type="text/javascript" charset="utf-8"></script>
 
-  <script type="text/javascript" charset="utf-8">
+  <script type="text/javascript">
      $(document).ready(function(){ $("#toc").tableOfContents(); });
 
-     $(document).ready(function(){ 
+     $(document).ready(function(){
        $("#toc").tableOfContents(
           null,                // Default scoping
-          { 
+          {
              startLevel: 2,    // H2 and up
              depth: 3          // H2 to H4
           }
-        ); 
+        );
      });
   </script>
     <!--
@@ -179,23 +179,25 @@
 <li>share the file with users within their jurisdiction who have access to that dataset</li>
 <li>view file contents and check validation issues</li>
 <li>view resolution codes and comments assigned to individual issues</li>
-<li>if Submitter has control</li>
+<li>if Submitter has control
 <ul>
 <li>assign issue resolution codes and/or comments to individual issues</li>
 <li>assign control of the issue resolution log to the Reviewer</li>
 <li>propose a replacement for the file under review.</li>
 </ul>
+</li>
 </ul>
 <p>Reviewers and Acceptors are usually based in the Commonwealth.  A Reviewer may:</p>
 <ul>
 <li>view file contents and check validation issues</li>
 <li>view resolution codes and comments assigned to individual issues</li>
 <li>record comments against individual issues</li>
-<li>if Reviewer has control</li>
+<li>if Reviewer has control
 <ul>
 <li>code accept/reject against individual issues</li>
 <li>assign control of the issue resolution log to the Submitter.</li>
 </ul>
+</li>
 </ul>
 <p>An Acceptor may:</p>
 <ul>
@@ -324,6 +326,6 @@
                 </div>
             </div>
         </div>
-    </div>				
+    </div>
 </body>
 </html>
