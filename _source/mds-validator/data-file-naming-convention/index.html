@@ -1,26 +1,11 @@
 ---
 layout: default
 title: Data File Naming Convention
+direction: MDS Validator Documentation
+directory: /mds-validator/index.html
+last_modified: Tuesday, 27 May 2014, 14:07:59
 ---
-
-    <div class="container-fluid">
-        <div class="content_outer">
-            <div class="content_inner">
-                <ul class='breadcrumb'><li><a href='../../index.html'>Home</a><span class='divider'>&rarr;</span></li><li><a href='../index.html'>MDS Validator Documentation</a><span class='divider'>&rarr;</span></li></ul>
-                <div class="tab-content">
-                    <div class="tab-pane active" id="main-content">
-                        <h1>Data File Naming Convention</h1>
-
 <p>The data file must have a formal name consistent with the format of <code>Tsssyyyybbbbb.DAT</code>. Note that the filename is case sensitive. The <code>T</code>, <code>sss</code>,<code>yyyy</code>, and <code>bbbbb</code> components are defined as :</p><dl><dt><code>T</code></dt><dd>File type (CMHC, MHE, NOCC, RMHC, or SKL)</dd><dt><code>sss</code></dt><dd>Jurisdiction code (ACT, NSW, NTE, QLD, SAU, TAS, VIC, or WAU)</dd><dt><code>yyyy</code></dt><dd>Year of the end of the financial year the batch is for</dd><dt><code>bbbbb</code></dt><dd>Yearly incremental batch number (leading zeros present) indicating the sequence number of the submission. Note that successive quarterly files and any resubmitted files must have a batch number greater than all preceding files for that year</dd></dl><p>For example, suppose that the ACT submitted quarterly data files to AMHOCN in respect of the 2007-08 financial year, then submitted a final submission; their first NOCC data file would be named <code>NOCCACT2008000001.DAT</code>, whilst the second would be named <code>NOCCACT200800002.DAT</code>, and so on. If no resubmissions were made the final submission for that year would be named <code>NOCCACT200800005.DAT</code>. If that file then had to be resubmitted for some reason, then it would be named <code>NOCCACT200800006.DAT</code>. Their first submission for the 2008-09 financial year would then be named <code>NOCCACT200900001.DAT</code>.</p>    <div id='print-pdf' class='pull-right'>
        <p><a href="index.html%3Fpdf=1" target="_blank">Print PDF</a></p>
     </div>
 <p>&nbsp;</p>
-    <div id='last-modified' class='pull-right'>
-      <p>Last modified: Tuesday, 27 May 2014, 14:07:59.</p>
-    </div>
-                    <div class="clear-float">&nbsp;</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>				
