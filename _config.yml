@@ -19,3 +19,7 @@ defaults:
       layout: "default"
 source:      _source
 destination: _site
+
+# Plugins
+plugins: 
+  - jekyll-last-modified-at
