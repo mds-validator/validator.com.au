@@ -1,7 +1,5 @@
 # validator.com.au
 
-force build 2
-
 [![Build Status](https://www.travis-ci.org/mds-validator/validator.com.au.svg?branch=master)](https://www.travis-ci.org/mds-validator/validator.com.au)
 
 ## Development
@@ -11,6 +9,16 @@ force build 2
 1. Edit files in `_source` directory to make changes
 1. Check your changes at http://localhost:4000
 1. Repeat 3 & 4 until satisfied
+
+### Build only
+
+Jekyll will exit once done
+
+`docker-compose run site jekyll build`
+
+### Update rubygems
+
+`docker-compose run site bundle update`
 
 ## Deploying
 
