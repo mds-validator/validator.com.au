@@ -13,12 +13,14 @@ direction: Home
 <p><strong>NOTE:</strong> If you have entered any data <strong>DO NOT</strong> extract the mhe-nmds-20xx-20xx-empty-data.zip file into the same directory as your old MHE NMDS database or you will lose your data.</p><h2>MHE Data Entry Tool Releases</h2>
 <ul>
     {% for post in site.posts %}
+        {% if post.category == "mhe-nmds" %}
         <li>
             <a href="{{ post.url }}">{{ post.title }}</a>
             {% if post.current_release %}
                  (Current release)
             {% endif %}
         </li>
+        {% endif %}
     {% endfor %}
 </ul>
 <h2>MHE NMDS Import Tool</h2>

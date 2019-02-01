@@ -5,6 +5,7 @@ direction: MHE NMDS Data Entry Tool
 directory: /mhe-nmds-data-entry-tool/index.html
 last_modified: 1
 current_release: 1
+category: mhe-nmds
 ---
 
 The [2017-2018 version of the MHE MDS Data Entry Tool (zip format, 988 kB)][interace-href] is available for download.

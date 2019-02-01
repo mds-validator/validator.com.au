@@ -4,22 +4,36 @@
 <div class="navbar">
     <div class="navbar-inner">
         <div class="container">
-
-{% for group in site.data.menu_content.toc %}
-    <ul id="{{ group.id }}" class="{{ group.class }}">
-        {% for item in group.subfolderitems %}
-            <li><a {% if item.class %} class="{{ item.class }}" {% endif %} href="{{ item.url }}" title="{{ item.page }}">{{ item.page }}</a>
-            {% if item.subsubfolderitems[0] %}
-                <ul>
-                    {% for entry in item.subsubfolderitems %}
-                        <li><a href="{{ entry.url }}" title="{{ entry.page }}">{{ entry.page }}</a></li>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-            </li>
-        {% endfor %}
+    <ul id=left-menubar" class="nav pull-left sf-menu">
+        <li><a href="/index.html" title="Home">Home</a></li>
+        <li>
+            <a href="/mds-validator/index.html" title="MDS Validator Documentation">MDS Validator Documentation</a>
+            <ul>
+                {% for post in site.posts  %}
+                    {% if post.category == "mds-validator" %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+        <li>
+            <a href="/mhe-nmds-data-entry-tool/index.html" title="MHE NMDS Data Entry Tool">MHE NMDS Data Entry Tool</a>
+            <ul>
+                {% for post in site.posts %}
+                    {% if post.category == "mhe-nmds" %}
+                    <li>
+                        <a href="{{ post.url }}">{{ post.title | remove: "MHE NMDS Data Entry Tool for "}}</a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
     </ul>
-{% endfor %}
+
+    <ul id="right-menubar" class="nav pull-right sf-menu">
+        <li><a href="/site-map/index.html" title="Site Map">Site Map</a></li>
+        <li><a href="/about/index.html" title="About">About</a></li>
+    </ul>
 </div>
 </div>
 </div>
