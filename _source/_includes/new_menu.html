@@ -1,0 +1,25 @@
+<div id="jumplinks">
+    <a href="index.html#main-content">Skip to main content</a>
+</div>
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="container">
+
+{% for group in site.data.menu_content.toc %}
+    <ul id="{{ group.id }}" class="{{ group.class }}">
+        {% for item in group.subfolderitems %}
+            <li><a {% if item.class %} class="{{ item.class }}" {% endif %} href="{{ item.url }}" title="{{ item.page }}">{{ item.page }}</a>
+            {% if item.subsubfolderitems[0] %}
+                <ul>
+                    {% for entry in item.subsubfolderitems %}
+                        <li><a href="{{ entry.url }}" title="{{ entry.page }}">{{ entry.page }}</a></li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endfor %}
+</div>
+</div>
+</div>
