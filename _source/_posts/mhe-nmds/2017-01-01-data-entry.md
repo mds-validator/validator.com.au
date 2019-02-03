@@ -18,6 +18,6 @@ The [user guide (pdf format, 584 kB)][userguide-href] is available for download.
 * [MHE NMDS Data Entry Tool - Interface Version 31 (zip format, 988 kB)][interface-href]
 * [MHE NMDS Data Entry Tool User Guide (pdf format, 584 kB)][userguide-href]
 
-[interface-href]: /site/assets/files/1034/mhe-nmds-2016-2017-interface.zip
-[emptydata-href]: /site/assets/files/1034/mhe-nmds-2016-2017-empty-data.zip
-[userguide-href]: /site/assets/files/1034/mhe-nmds-2016-2017-de-tool-user-guide.pdf
+[interface-href]: /site/assets/files/1034/MHE-NMDS-2016-2017-interface.zip
+[emptydata-href]: /site/assets/files/1034/MHE-NMDS-2016-2017-empty-data.zip
+[userguide-href]: /site/assets/files/1034/MHE-NMDS-2016-2017-DE-Tool-User-Guide.pdf
