@@ -21,4 +21,4 @@ The [user guide (pdf format, 584 kB)][userguide-href] is available for download.
 
 [interface-href]: /site/assets/files/1035/MHE-NMDS-2017-2018-interface.zip
 [emptydata-href]: /site/assets/files/1035/MHE-NMDS-2017-2018-empty-data.zip
-[userguide-href]: /site/assets/files/1035/MHE-NMDS-2017-2018-De-Tool-User-Guide.pdf
+[userguide-href]: /site/assets/files/1035/MHE-NMDS-2017-2018-DE-Tool-User-Guide.pdf
