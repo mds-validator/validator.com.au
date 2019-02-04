@@ -10,6 +10,10 @@
 1. Check your changes at http://localhost:4000
 1. Repeat 3 & 4 until satisfied
 
+### Build and test
+
+`docker-compose run site rake test`
+
 ### Build only
 
 Jekyll will exit once done

@@ -9,27 +9,24 @@ direction: Home
                 <ul>
                   <li><a href='../mds-validator/index.html'>MDS Validator Documentation</a>
                     <ul>
-                      <li><a href='../mds-validator/major-systems-operation/index.html'>Major Systems Operation</a> </li>
-                      <li><a href='../mds-validator/registering-for-the-mds-online-validator/index.html'>Registering for the MDS Validator</a> </li>
-                      <li><a href='../mds-validator/data-file-naming-convention/index.html'>Data File Naming Convention</a> </li>
-                      <li><a href='../mds-validator/changelog/index.html'>Change Log</a> </li>
-                      <li><a href='../mds-validator/cmhc-data-set-reports-documentation/index.html'>CMHC Data-set Reports Documentation</a> </li>
-                      <li><a href='../mds-validator/nocc-cmhc-persid-comparison-report/index.html'>NOCC-CMHC PersId Comparison Report</a> </li>
+                        {% for post in site.posts %}
+                            {% if post.category == "mds-validator" %}
+                            <li>
+                                <a href="{{ post.url }}">{{ post.title }}</a>
+                            </li>
+                            {% endif %}
+                        {% endfor %}
                     </ul>
                   </li>
                   <li><a href='../mhe-nmds-data-entry-tool/index.html'>MHE NMDS Data Entry Tool</a>
                     <ul>
-                      <li><a href='../mhe-nmds-data-entry-tool/2016-2017/index.html'>2016-2017</a> </li>
-                      <li><a href='../mhe-nmds-data-entry-tool/2015-2016/index.html'>2015-2016</a> </li>
-                      <li><a href='../mhe-nmds-data-entry-tool/2014-2015/index.html'>2014-2015</a> </li>
-                      <li><a href='../mhe-nmds-data-entry-tool/2013-2014/index.html'>2013-2014</a> </li>
-                      <li><a href='../mhe-nmds-data-entry-tool/2012-2013/index.html'>2012-2013</a> </li>
-                      <li><a href='../mhe-nmds-data-entry-tool/2011-2012/index.html'>2011-2012</a> </li>
-                      <li><a href='../mhe-nmds-data-entry-tool/2010-2011/index.html'>2010-2011</a> </li>
-                      <li><a href='../mhe-nmds-data-entry-tool/2009-2010/index.html'>2009-2010</a> </li>
-                      <li><a href='../mhe-nmds-data-entry-tool/2008-2009/index.html'>2008-2009</a> </li>
-                      <li><a href='../mhe-nmds-data-entry-tool/2007-2008/index.html'>2007-2008</a> </li>
-                      <li><a href='../mhe-nmds-data-entry-tool/2006-2007/index.html'>2006-2007</a> </li>
+                        {% for post in site.posts %}
+                            {% if post.category == "mhe-nmds" %}
+                            <li>
+                                <a href="{{ post.url }}">{{ post.title | remove: "MHE NMDS Data Entry Tool for "}}</a>
+                            </li>
+                            {% endif %}
+                        {% endfor %}
                     </ul>
                   </li>
                   <li><a href='index.html'>Site Map</a> </li>
@@ -38,8 +35,8 @@ direction: Home
               </li>
             </ul>
             <div class="clear-float">&nbsp;</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
