@@ -2,7 +2,9 @@
 layout: default
 title: NOCC-CMHC PersId Comparison Report
 direction: MDS Validator Documentation
-directory: /mds-validator/index.html
+directory:
+  - url: /mds-validator/index.html
+    name: MDS Validator Documentation
 last_modified: Wednesday, 05 November 2014, 15:49:38
 category: mds-validator
 ---
@@ -18,7 +20,4 @@ category: mds-validator
 <p>On the other hand, the proportion of CMHC patient identifiers that have NOCC clinical ratings is likely to be in the range 35-40%. This is not surprising given that we have consistently found that approximately 30% of all unique CMHC patient identifiers, in a given reporting period, have service contacts recorded on only one or two service contact days.</p>
 <p>It may be useful to generate these reports with previous submissions of the NOCC &amp; CMHC to check whether there are in fact new issues being identified in the current submission process (e.g., there may be “known” issues regarding “low” completion rates of NOCC measures by some organisations reporting CMHC service activity).</p>
 
-<div class="pull-right" id="print-pdf">
-<p><a href="/mds-validator/nocc-cmhc-persid-comparison-report/index.html%3Fpdf=1" target="_blank">Print PDF</a></p>
-</div>
 <p>&nbsp;</p>

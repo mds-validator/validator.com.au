@@ -2,7 +2,9 @@
 layout: default
 title: Registering for the MDS Validator
 direction: MDS Validator Documentation
-directory: /mds-validator/index.html
+directory:
+  - url: /mds-validator/index.html
+    name: MDS Validator Documentation
 last_modified: Wednesday, 03 June 2015, 08:28:17
 category: mds-validator
 ---
@@ -46,7 +48,4 @@ category: mds-validator
 ### Delete a User from the System
 <p>If you require a User to be removed from the system, please contact an Administrator via support@validator.com.au.</p>
 
-<div class="pull-right" id="print-pdf">
-<p><a href="/mds-validator/registering-for-the-mds-online-validator/index.html%3Fpdf=1" target="_blank">Print PDF</a></p>
-</div>
 <p>&nbsp;</p>

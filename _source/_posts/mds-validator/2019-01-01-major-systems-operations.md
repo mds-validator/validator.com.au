@@ -2,7 +2,9 @@
 layout: default
 title: Major Systems Operation
 direction: MDS Validator Documentation
-directory: /mds-validator/index.html
+directory:
+  - url: /mds-validator/index.html
+    name: MDS Validator Documentation
 last_modified: Monday, 01 June 2015, 13:03:17
 category: mds-validator
 ---
@@ -129,7 +131,4 @@ category: mds-validator
 <p>When viewing the file information in the "Files" tab of the MDS Validator, a warning will be present explaining that historical checks have not yet been performed, and a button will be present offering revalidation now.</p>
 <p>Additionally, software upgrades may also require revalidation. These will usually performed as part of the upgrade but can also be manually initiated by administrative staff.</p>
 
-<div class="pull-right" id="print-pdf">
-<p><a href="/mds-validator/major-systems-operation/index.html%3Fpdf=1" target="_blank">Print PDF</a></p>
-</div>
 <p>&nbsp;</p>

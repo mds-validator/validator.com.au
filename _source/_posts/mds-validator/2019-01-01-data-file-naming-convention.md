@@ -2,7 +2,9 @@
 layout: default
 title: Data File Naming Convention
 direction: MDS Validator Documentation
-directory: /mds-validator/index.html
+directory:
+  - url: /mds-validator/index.html
+    name: MDS Validator Documentation
 last_modified: Tuesday, 27 May 2014, 14:07:59
 category: mds-validator
 ---
@@ -27,7 +29,4 @@ Yearly incremental batch number (leading zeros present) indicating the sequence 
 
 For example, suppose that the ACT submitted quarterly data files to AMHOCN in respect of the 2007-08 financial year, then submitted a final submission; their first NOCC data file would be named ```NOCCACT2008000001.DAT```, whilst the second would be named ```NOCCACT200800002.DAT```, and so on. If no resubmissions were made the final submission for that year would be named ```NOCCACT200800005.DAT```. If that file then had to be resubmitted for some reason, then it would be named ```NOCCACT200800006.DAT```. Their first submission for the 2008-09 financial year would then be named ```NOCCACT200900001.DAT```.
 
-<div class="pull-right" id="print-pdf">
-<p><a href="/mds-validator/data-file-naming-convention/index.html%3Fpdf=1" target="_blank">Print PDF</a></p>
-</div>
 <p>&nbsp;</p>

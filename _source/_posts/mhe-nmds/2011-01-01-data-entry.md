@@ -2,7 +2,9 @@
 layout: default
 title: MHE NMDS Data Entry Tool for 2010-2011
 direction: MHE NMDS Data Entry Tool
-directory: /mhe-nmds-data-entry-tool/index.html
+directory:
+  - url: /mhe-nmds-data-entry-tool/index.html
+    name: MHE NMDS Data Entry Tool
 last_modified: 1
 category: mhe-nmds
 ---
