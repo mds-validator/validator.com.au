@@ -9,9 +9,11 @@ category: mds-validator
 <ul id="toc">
 <li>Table of contents</li>
 </ul>
-##Requesting and Managing Access to the MDS Validator
+## Requesting and Managing Access to the MDS Validator
 <p>Access to the MDS Validator system is managed via the Strategic Data Authentication System (SDAS): <a href="https://auth.strategicdata.com.au">https://auth.strategicdata.com.au</a></p>
+
 <p>This system enables users and their managers to register for and manage access to the MDS Validator, however, as it is currently in development Strategic Data will continue to manage this process.    </p>
+
 ### Register for User Access
 <p>Your manager will need to email support@validator.com.au requesting you be registered for an account. If you are unsure who your manager is, please contact <a href="mailto:support@validator.com.au">support@validator.com.au</a>.</p>
 <p>There are three steps to adding a new user:</p>
@@ -26,6 +28,7 @@ category: mds-validator
 - a back up email address (optional); and
 - a mobile phone number capable of accepting SMS messages. This is used to provide extra security should you need to reset your password.
 <p>Once your manager has requested that you be added you as a user, you will be sent an email with a link to a verification page. The verification code required to access the site will be sent via SMS to your registered mobile phone number.</p>
+
 1. Follow the instructions in the verification email to begin your registration (please be aware that the access link and codes are only viable for a short period of time, so please register as soon as you receive your email).
 2. After registration you will have access to the SDAS, but you will not have any functional attributes.
 3. The administrators will be notified that you have registered and will grant you the correct attributes to access, upload or review the correct file types.
@@ -39,8 +42,11 @@ category: mds-validator
 
 ### Managing your Details
 <p>You may update your personal details via the "Manage Details" tab in the Menu Bar, including updating your mobile number, email address or name.</p>
+
 ### Delete a User from the System
 <p>If you require a User to be removed from the system, please contact an Administrator via support@validator.com.au.</p>
 
-<p align="right"><a href="/mds-validator/registering-for-the-mds-online-validator/index.html%3Fpdf=1" target="_blank">Print PDF</a></p>
+<div class="pull-right" id="print-pdf">
+<p><a href="/mds-validator/registering-for-the-mds-online-validator/index.html%3Fpdf=1" target="_blank">Print PDF</a></p>
+</div>
 <p>&nbsp;</p>
