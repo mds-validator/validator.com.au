@@ -2,7 +2,9 @@
 layout: default
 title: NOCC-CMHC PersId Comparison Report
 direction: MDS Validator Documentation
-directory: /mds-validator/index.html
+directory:
+  - url: /mds-validator/index.html
+    name: MDS Validator Documentation
 last_modified: Wednesday, 05 November 2014, 15:49:38
 category: mds-validator
 ---

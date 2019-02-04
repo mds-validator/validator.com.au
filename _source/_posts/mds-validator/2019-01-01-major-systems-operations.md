@@ -2,7 +2,9 @@
 layout: default
 title: Major Systems Operation
 direction: MDS Validator Documentation
-directory: /mds-validator/index.html
+directory:
+  - url: /mds-validator/index.html
+    name: MDS Validator Documentation
 last_modified: Monday, 01 June 2015, 13:03:17
 category: mds-validator
 ---

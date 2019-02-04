@@ -2,7 +2,9 @@
 layout: default
 title: Registering for the MDS Validator
 direction: MDS Validator Documentation
-directory: /mds-validator/index.html
+directory:
+  - url: /mds-validator/index.html
+    name: MDS Validator Documentation
 last_modified: Wednesday, 03 June 2015, 08:28:17
 category: mds-validator
 ---

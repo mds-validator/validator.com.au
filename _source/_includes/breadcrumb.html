@@ -6,7 +6,10 @@
                 <ul class='breadcrumb'>
                     <li><a href='/index.html'>Home</a><span class='divider'>&rarr;</span></li>
                     {% if page.direction != 'Home' %}
-                    <li><a href="{{ page.directory }}">{{ page.direction }}</a><span class='divider'>&rarr;</span></li>
+                        {% for item in page.directory %}
+
+                            <li><a href="{{ item.url }}">{{ item.name }}</a><span class='divider'>&rarr;</span></li>
+                        {% endfor %}
                     {% endif %}
                     <li><a href="{{ page.url }}">{{ page.title }}</a></li>
                 </ul>

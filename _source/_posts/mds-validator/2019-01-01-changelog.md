@@ -2,7 +2,9 @@
 layout: default
 title: MDS Validator Change Log
 direction: MDS Validator Documentation
-directory: /mds-validator/index.html
+directory:
+  - url: /mds-validator/index.html
+    name: MDS Validator Documentation
 last_modified: Monday, 01 June 2015, 12:32:53
 category: mds-validator
 ---
