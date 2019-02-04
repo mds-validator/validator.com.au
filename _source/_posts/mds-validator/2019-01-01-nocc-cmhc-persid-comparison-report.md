@@ -19,6 +19,6 @@ category: mds-validator
 <p>It may be useful to generate these reports with previous submissions of the NOCC &amp; CMHC to check whether there are in fact new issues being identified in the current submission process (e.g., there may be “known” issues regarding “low” completion rates of NOCC measures by some organisations reporting CMHC service activity).</p>
 
 <div class="pull-right" id="print-pdf">
-<p align="right"><a href="/mds-validator/nocc-cmhc-persid-comparison-report/index.html%3Fpdf=1" target="_blank">Print PDF</a></p>
+<p><a href="/mds-validator/nocc-cmhc-persid-comparison-report/index.html%3Fpdf=1" target="_blank">Print PDF</a></p>
 </div>
 <p>&nbsp;</p>

@@ -703,6 +703,6 @@ category: mds-validator
 <p>Development releases are for internal use only. Features in these builds may change significantly before reaching staging.</p>
 
 <div class="pull-right" id="print-pdf">
-<p align="right"><a href="/mds-validator/changelog/index.html%3Fpdf=1" target="_blank">Print PDF</a></p>
+<p><a href="/mds-validator/changelog/index.html%3Fpdf=1" target="_blank">Print PDF</a></p>
 </div>
 <p>&nbsp;</p>
