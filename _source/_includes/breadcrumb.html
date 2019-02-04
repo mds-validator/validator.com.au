@@ -8,6 +8,7 @@
                     {% if page.direction != 'Home' %}
                     <li><a href="{{ page.directory }}">{{ page.direction }}</a><span class='divider'>&rarr;</span></li>
                     {% endif %}
+                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
                 </ul>
                 <div class="tab-content">
                     <div class="tab-pane active" id="main-content">
