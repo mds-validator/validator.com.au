@@ -46,7 +46,4 @@ category: mds-validator
 ### Delete a User from the System
 <p>If you require a User to be removed from the system, please contact an Administrator via support@validator.com.au.</p>
 
-<div class="pull-right" id="print-pdf">
-<p><a href="/mds-validator/registering-for-the-mds-online-validator/index.html%3Fpdf=1" target="_blank">Print PDF</a></p>
-</div>
 <p>&nbsp;</p>
