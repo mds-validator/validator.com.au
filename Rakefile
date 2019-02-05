@@ -2,7 +2,7 @@
 
 task :test do
   sh "ls"
-  #sh "bundle exec jekyll build"
+  sh "bundle exec jekyll build"
   options = { :assume_extension => true, :url_ignore => [ /^https?.+/ ]}
   begin
     require 'html-proofer'
