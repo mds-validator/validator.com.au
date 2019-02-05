@@ -7,6 +7,9 @@ set -e # halt script on error
 #bundle exec jekyll build
 #bundle exec htmlproofer ./_site --disable-external
 # use our docker build and test process
+rm Gemfile.lock
+touch Gemfile.lock
+chmod a+w Gemfile.lock
 docker-compose run site bundle update
 docker-compose run site rake test
 #docker ps -a
