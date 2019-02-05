@@ -5,9 +5,9 @@ set -e # halt script on error
 
 docker-compose --version
 bundle exec jekyll build
-bundle exec htmlproofer ./_site --disable-external
+#bundle exec htmlproofer ./_site --disable-external
 # use our docker build and test process
-# docker-compose run site rake test
+docker-compose run site rake test
 docker ps -a
 $HOME/.local/bin/html5validator --root ./_site
 
