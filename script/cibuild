@@ -3,13 +3,14 @@ set -e # halt script on error
 
 # bundle install
 
-docker-compose --version
-bundle exec jekyll build
-bundle exec htmlproofer ./_site --disable-external
+#docker-compose --version
+#bundle exec jekyll build
+#bundle exec htmlproofer ./_site --disable-external
 # use our docker build and test process
-# docker-compose run site rake test
-docker ps -a
-$HOME/.local/bin/html5validator --root ./_site
+docker-compose run site rake test
+#docker ps -a
+#$HOME/.local/bin/html5validator --root ./_site
+docker run -v $(pwd)/_site:/app stratdat/html5validator
 
 #node --version
 #./node_modules/a11y/cli.js --help
