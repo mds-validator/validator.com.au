@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
-# bundle install
+mkdir _site
+chmod a+w Gemfile.lock _site
 
 bundle exec jekyll build
 bundle exec htmlproofer ./_site --disable-external
