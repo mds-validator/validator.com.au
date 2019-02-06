@@ -1,20 +1,15 @@
-language: ruby
+language: generic
 cache:
-  - bundler
-  - pip
-rvm:
-  - 2.3
-jdk:
-  - oraclejdk8
-before_script:
-  - pip install --user html5validator
+  - docker
+services:
+  - docker
 script: ./script/cibuild
 branches:
   only:
   - master
-env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+#env:
+#  global:
+#  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 deploy:
   provider: script
   script: ./script/deploy
