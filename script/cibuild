@@ -7,10 +7,11 @@ set -e # halt script on error
 #bundle exec jekyll build
 #bundle exec htmlproofer ./_site --disable-external
 # use our docker build and test process
-rm Gemfile.lock
-touch Gemfile.lock
-chmod a+w Gemfile.lock
-docker-compose run site bundle update
+#rm Gemfile.lock
+#touch Gemfile.lock
+mkdir _site
+chmod a+w Gemfile.lock _site
+docker-compose run site bundle install
 docker-compose run site rake test
 #docker ps -a
 #$HOME/.local/bin/html5validator --root ./_site
