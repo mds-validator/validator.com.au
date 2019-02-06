@@ -4,9 +4,13 @@ set -e # halt script on error
 mkdir _site
 chmod a+w Gemfile.lock _site
 
-bundle exec jekyll build
-bundle exec htmlproofer ./_site --disable-external
-$HOME/.local/bin/html5validator --root ./_site
+# Install dependencies
+docker-compose run site bundle install
+
+# Build and test _site
+docker-compose run site rake test
+
+docker run -v $(pwd)/_site:/app stratdat/html5validator
 
 #node --version
 #./node_modules/a11y/cli.js --help
