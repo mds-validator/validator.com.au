@@ -7,6 +7,7 @@ directory:
     name: MHE NMDS Data Entry Tool
 last_modified: 1
 category: mhe-nmds
+permalink: /mhe-nmds-data-entry-tool/2011-2012/
 ---
 
 The [2011-2012 version of the MHE MDS Data Entry Tool (zip format, 580 kB)][interface-href] is available for download.
