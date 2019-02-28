@@ -6,7 +6,6 @@ directory:
   - url: /mds-validator/index.html
     name: MDS Validator Documentation
 last_modified: Monday, 07 July 2014, 09:19:46
-category: mds-validator
 ---
 <h2>Report Types</h2>
 <h3>Client and Activity</h3>

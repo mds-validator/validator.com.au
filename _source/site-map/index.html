@@ -9,12 +9,10 @@ direction: Home
                 <ul>
                   <li><a href='../mds-validator/index.html'>MDS Validator Documentation</a>
                     <ul>
-                        {% for post in site.posts %}
-                            {% if post.category == "mds-validator" %}
+                        {% for item in site.mds-validator %}
                             <li>
-                                <a href="{{ post.url }}">{{ post.title }}</a>
+                                <a href="{{ item.url }}">{{ item.title }}</a>
                             </li>
-                            {% endif %}
                         {% endfor %}
                     </ul>
                   </li>

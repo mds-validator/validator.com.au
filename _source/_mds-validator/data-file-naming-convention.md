@@ -6,7 +6,6 @@ directory:
   - url: /mds-validator/index.html
     name: MDS Validator Documentation
 last_modified: Tuesday, 27 May 2014, 14:07:59
-category: mds-validator
 ---
 
 The data file must have a formal name consistent with the format of ```Tsssyyyybbbbb.DAT```. Note that the filename is case sensitive. The ```T```, ```sss```, ```yyyy```, and ```bbbbb``` components are defined as :
