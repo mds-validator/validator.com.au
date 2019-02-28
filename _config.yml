@@ -11,6 +11,11 @@ author:
   email:             'support@validator.com.au'
 
 exclude: [node_modules,vendor,src,gulpfile.js,bower_components,bower.json,README.md,static,package.json,'*.sh',nginx.d]
+
+collections:
+  "mhe-nmds-data-entry-tool":
+    output: true
+
 defaults:
   -
     scope:
