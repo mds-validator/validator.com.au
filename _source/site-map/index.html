@@ -20,12 +20,11 @@ direction: Home
                   </li>
                   <li><a href='../mhe-nmds-data-entry-tool/index.html'>MHE NMDS Data Entry Tool</a>
                     <ul>
-                        {% for post in site.posts %}
-                            {% if post.category == "mhe-nmds" %}
+                        {% assign work_items = site.mhe-nmds-data-entry-tool | sort: 'title' | reverse %}
+                        {% for item in work_items %}
                             <li>
-                                <a href="{{ post.url }}">{{ post.title | remove: "MHE NMDS Data Entry Tool for "}}</a>
+                                <a href="{{ item.url }}">{{ item.title | remove: "MHE NMDS Data Entry Tool for " }}</a>
                             </li>
-                            {% endif %}
                         {% endfor %}
                     </ul>
                   </li>
