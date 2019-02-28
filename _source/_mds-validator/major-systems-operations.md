@@ -6,7 +6,6 @@ directory:
   - url: /mds-validator/index.html
     name: MDS Validator Documentation
 last_modified: Monday, 01 June 2015, 13:03:17
-category: mds-validator
 ---
 
 <ul id="toc">
@@ -15,7 +14,7 @@ category: mds-validator
 ### Access to the MDS Validator
 <p>Access to the MDS Validator is via the following URL:</p>
 ### Registering for Access to the MDS Validator
-<p>Please visit <a href="/mds-validator/2019/01/01/register-for-mds-online-validator/">Registering for Access to MDS Validator</a></p>
+<p>Please visit <a href="/mds-validator/register-for-mds-online-validator/">Registering for Access to MDS Validator</a></p>
 ### Levels of Access
 <p>There are four levels of access within the MDS Validator: Submitter, Reviewer, Acceptor and Administrator.</p>
 <p>Submittors are usually based in the jurisdiction.  A Submitter may:</p>
@@ -49,7 +48,7 @@ category: mds-validator
 #### File Upload in Jurisdiction Workspace
 <p>The submission process is initiated when a file is uploaded into the jurisdiction workspace.  This is a private workspace that allows file Submitters to upload and review their potential submissions before choosing to formally submit the file for review.</p>
 <p>The online validator enables upload of the MDS data file to a secure server. Once the upload and validation process is complete an email informing the Submitter of the file status and providing a link to the online validation reports is sent. Note that you may zip your file prior to upload in order to reduce the size of the file. This zip file must not be password protected. The upload link itself is encrypted so the file does not travel across the Internet unprotected.</p>
-<p>MDS data files must be named according to a specific convention. Please see <a href="/mds-validator/2019/01/01/data-file-naming-convention/">Data File Naming Convention</a>.</p>
+<p>MDS data files must be named according to a specific convention. Please see <a href="/mds-validator/data-file-naming-convention/">Data File Naming Convention</a>.</p>
 #### Pre Submission Review in Jurisdiction Workspace
 <p>The Pre Submission Review allows Submitters to review the results of their validation attempt. During Pre Submission Review the upload remains in a private workspace inaccessible to anyone other than the Submitter or those with whom the Submitter explicitly shares the file.</p>
 <p>The Validator provides initial feedback about basic structural issues in the file.  The "Line Status" page indicates if there are Malformed, Barren, Duplicate, Orphaned or Miscoded errors.  These errors should be resolved and the file replaced by a corrected version. Once the structural issues are all fixed the Submitter can inspect the reports in the "Report" section.</p>

@@ -6,7 +6,6 @@ directory:
   - url: /mds-validator/index.html
     name: MDS Validator Documentation
 last_modified: Monday, 01 June 2015, 12:32:53
-category: mds-validator
 ---
 <p><strong>This page is no longer being updated.  The latest changes can be viewed at <a href="https://webval.validator.com.au/changes">https://webval.validator.com.au/changes</a></strong></p>
 <ul id="toc">

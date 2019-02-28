@@ -6,7 +6,6 @@ directory:
   - url: /mds-validator/index.html
     name: MDS Validator Documentation
 last_modified: Wednesday, 05 November 2014, 15:49:38
-category: mds-validator
 ---
 <p>AMHOCN and Strategic Data have developed a new NOCC-CMHC PersId Comparison Report for the MDS Validator.</p>
 <p>This report shows the amount of overlap between the patient identifiers in the NOCC and the CMHC. It has been designed to assist jurisdictions in understanding the integrity of these identifiers for the purposes of subsequent linkage when reporting coverage estimates as is the case with Mental Health Services Performance Indicator (MHS PI) 14, Outcomes readiness.</p>
