@@ -12,12 +12,12 @@ last_modified: Monday, 01 June 2015, 13:03:17
 <li>Table of contents</li>
 </ul>
 ### Access to the MDS Validator
-<p>Access to the MDS Validator is via the following URL:</p>
+<p>Access to the MDS Validator is via the following URL:<a target="blank" href="https://webval.validator.com.au">https://webval.validator.com.au</a></p>
 ### Registering for Access to the MDS Validator
 <p>Please visit <a href="/mds-validator/register-for-mds-online-validator/">Registering for Access to MDS Validator</a></p>
 ### Levels of Access
-<p>There are four levels of access within the MDS Validator: Submitter, Reviewer, Acceptor and Administrator.</p>
-<p>Submittors are usually based in the jurisdiction.  A Submitter may:</p>
+<p>There are five levels of access within the MDS Validator: Submitter, Reviewer, Acceptor, Exporter and Administrator.</p>
+<p>Submitters are usually based in the jurisdiction.  A Submitter may:</p>
 
 - upload and review potential submissions
 - share the file with users within their jurisdiction who have access to that dataset
@@ -27,7 +27,7 @@ last_modified: Monday, 01 June 2015, 13:03:17
     - assign issue resolution codes and/or comments to individual issues
     - assign control of the issue resolution log to the Reviewer
     - propose a replacement for the file under review.
-<p>Reviewers and Acceptors are usually based in the Commonwealth.  A Reviewer may:</p>
+<p>Reviewers, Acceptors and Exporters are usually based in the Commonwealth.  A Reviewer may:</p>
 - view file contents and check validation issues
 - view resolution codes and comments assigned to individual issues
 - record comments against individual issues
@@ -41,7 +41,11 @@ last_modified: Monday, 01 June 2015, 13:03:17
 - code accept/reject against individual issues
 - assign control of the issue resolution log to the Submitter
 - accept the file.
+
+<p>An Exporter is able to export files; the role is usually given to Reviewers or Acceptors as required.</p>
+
 <p>Administrators manage the application on behalf of the Department of Health.</p>
+
 ### Submission Process
 <p>The below diagram provides a visual summary of the submission process:</p>
 <p><a href="/site/assets/files/1021/mds_validator_submission_process_7.svg"><img class="align_center" src="/site/assets/files/1021/mds_validator_submission_process_1.766x0.jpg" width="766" height="970" alt="MDS Validator Submission Process - JPG" /></a></p>
