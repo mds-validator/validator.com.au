@@ -12,7 +12,7 @@ last_modified: Monday, 01 June 2015, 13:03:17
 <li>Table of contents</li>
 </ul>
 ### Access to the MDS Validator
-<p>Access to the MDS Validator is via the following URL:<a target="blank" href="https://webval.validator.com.au">https://webval.validator.com.au</a></p>
+<p>Access to the MDS Validator is via the following URL: <a target="blank" href="https://webval.validator.com.au">https://webval.validator.com.au</a></p>
 ### Registering for Access to the MDS Validator
 <p>Please visit <a href="/mds-validator/register-for-mds-online-validator/">Registering for Access to MDS Validator</a></p>
 ### Levels of Access
