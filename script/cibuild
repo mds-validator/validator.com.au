@@ -8,7 +8,7 @@ chmod a+w Gemfile.lock _site
 docker-compose run site bundle install
 
 # Hack - see https://github.com/jekyll/jekyll/issues/5423
-docker-compose run site gem uninstall ffi
+docker-compose run site gem uninstall -x -I ffi
 docker-compose run site gem install ffi --platform=ruby
 
 # Build and test _site
