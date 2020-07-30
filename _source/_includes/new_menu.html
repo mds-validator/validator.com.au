@@ -6,31 +6,12 @@
         <div class="container">
     <ul id="left-menubar" class="nav pull-left sf-menu">
         <li><a href="/index.html" title="Home">Home</a></li>
-        <li>
-            <a href="/mds-validator/index.html" title="MDS Validator Documentation">MDS Validator Documentation</a>
-            <ul>
-                {% for item in site.mds-validator  %}
-                    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-                {% endfor %}
-            </ul>
-        </li>
-        <li>
-            <a href="/mhe-nmds-data-entry-tool/index.html" title="MHE NMDS Data Entry Tool">MHE NMDS Data Entry Tool</a>
-            <ul>
-                {% assign work_items = site.mhe-nmds-data-entry-tool | sort: 'title' | reverse %}
-                {% for item in work_items %}
-                    <li>
-                        <a href="{{ item.url }}">{{ item.title | remove: "MHE NMDS Data Entry Tool for " }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </li>
+        <li><a href="/features.html" title="Features">Features</a></li>
+        <li><a href="/index.html" title="How it works">How it works</a></li>
+        <li><a href="/index.html" title="Resources">Resources</a></li>
+        <li><a href="/index.html" title="User Guide">User Guide</a></li>
     </ul>
 
-    <ul id="right-menubar" class="nav pull-right sf-menu">
-        <li><a href="/site-map/index.html" title="Site Map">Site Map</a></li>
-        <li><a href="/about/index.html" title="About">About</a></li>
-    </ul>
 </div>
 </div>
 </div>
