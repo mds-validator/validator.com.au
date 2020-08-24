@@ -2,46 +2,70 @@
 layout: default
 ---
 
-<div class="container flex mx-auto">
-    <div class="flex flex-col flex-auto"> 
-        <h3 class="py-5 text-3xl font-bold text-gray-800">
-            Overview of Validation Process
-        </h3>
-        
-        <h4 class="text-xl">
-            1. Submitter uploads in private workspace for pre-submission validation checks
-        </h4>
-        
-            Pre-submission checks, such as structural and consistency validations, allow submitters to easily identify and correct data anomalies before submitting the data for assessment by reviewers.
-        
 
-            These validations  ensure the data is structured correctly and satisfies its specification, and that it appears to be reasonable and consistent, including comparison to data submitted in previous reporting periods.
-
+        <div class="bg-gray-400">
+            <div class="container mx-auto mt-5">
+                <div>
+                    <h3 class="my-5 text-4xl font-bold text-gray-800 xl:text-5xl">
+                        How it works
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="container flex mx-auto mt-5">
+        <div class="grid grid-cols-4 gap-10">
+            <div class="flex col-span-2"> 
+                <div class="m-auto">
+                    <ul>
+                        <li class="p-4 m-3 bg-white border-t-4 border-gray-600 border-solid shadow-lg">
+                            <h4 class="text-3xl font-bold text-gray-800">
+                                1. Submitter uploads in private workspace for pre-submission validation checks
+                            </h4>
+                            <p class="mb-5">
+                                Pre-submission checks, such as structural and consistency validations, allow submitters to easily identify and correct data anomalies before submitting the data for assessment by reviewers.
+                            
+                
+                                These validations  ensure the data is structured correctly and satisfies its specification, and that it appears to be reasonable and consistent, including comparison to data submitted in previous reporting periods.
+                            
+                            </p>
+                            </li>
+                        <li class="p-4 m-3 bg-white border-t-4 border-gray-600 border-solid shadow-lg">
+                            <h4 class="text-3xl font-bold text-gray-800">
+                                2. Submitter proposes file for review in a shared workspace
+                            </h4>
+                            
+                            <p class="mb-5">
+                                Submitters 'propose' files for acceptance by reviewers. Once proposed, reviewers can assess the quality of the datafile via a series of issue and rule reports. Reviewers can either accept the file, or reject it if the issues are too significant.
+                            </p>
+                        </li>
+                        <li class="p-4 m-3 bg-white border-t-4 border-gray-600 border-solid shadow-lg">
+                            <h4 class="text-3xl font-bold text-gray-800">
+                            3. Reviewer and submitter collaborate on data
+                            </h4>
+                            
+                            <p class="mb-5">
+                                The MDS Online Validator provides a collaborative platform for receivers to work with submitters to ensure that data meets the standards required by the receiver. Issues are tracked and discussions between submitters and receivers are retained.
+                            </p>
+                        </li>
+                        <li class="p-4 m-3 bg-white border-t-4 border-gray-600 border-solid shadow-lg">
+                            <h4 class="text-3xl font-bold text-gray-800">
+                            4. Submission is finalised
+                            </h4>
+                            
+                            <p class="mb-5">
+                                Once the submission process is considered complete, the data is considered to be suitable for reporting and can be manually or automatically transferred to an external data warehouse or reporting system.
+                                
+                                More information
+                                
+                                See the [Online Data Validator User Guide] for more information about the tool. 
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         
-        <h4 class="text-xl">
-            2. Submitter proposes file for review in a shared workspace
-        </h4>
-        
-        Submitters 'propose' files for acceptance by reviewers. Once proposed, reviewers can assess the quality of the datafile via a series of issue and rule reports. Reviewers can either accept the file, or reject it if the issues are too significant.
-        
-        <h4 class="text-xl">
-        3. Reviewer and submitter collaborate on data
-        </h4>
-        
-        The MDS Online Validator provides a collaborative platform for receivers to work with submitters to ensure that data meets the standards required by the receiver. Issues are tracked and discussions between submitters and receivers are retained.
-        
-        <h4 class="text-xl">
-        4. Submission is finalised
-        </h4>
-        
-        Once the submission process is considered complete, the data is considered to be suitable for reporting and can be manually or automatically transferred to an external data warehouse or reporting system.
-        
-        More information
-        
-        See the [Online Data Validator User Guide] for more information about the tool. 
-    </div>
-
-    <div class="flex flex-initial">
-        Image
-    </div>
+            <div class="col-span-2">
+                <img src="assets/images/Validator_Process_Revised.png" />
+            </div>
+        </div>
 </div>

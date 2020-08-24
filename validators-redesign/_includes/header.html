@@ -1,10 +1,10 @@
 <div class="flex flex-col flex-initial bg-blue-900">
    
     <div class="container mx-auto">
-       <div class="flex flex-col pt-0 min-h-40 sm:flex-row sm:pt-5">
+       <div class="flex flex-col my-10 min-h-40 sm:flex-row sm:pt-5">
           <div class="flex flex-row">
              <div class="justify-center m-auto sm:border-r sm:border-white sm:border-opacity-25">
-               <img class="object-scale-down h-20 p-3 pr-10 bg-blue-900" src="assets/images/header-logo-agov.png" />
+               <img class="object-scale-down h-20 p-3 pr-10 bg-blue-900" src="/assets/images/header-logo-agov.png" />
             </div>
          </div>
           <div class="flex flex-col justify-center flex-auto pl-10">
@@ -12,14 +12,23 @@
              <h2 class="text-2xl text-white">Submission and validation tool for for large data sets</h2>
           </div>
        </div>
-       
-       <div>
-          <ul class="flex m-3">
-              {% for item in site.data.menu.docs %}
-               <li class="mt-5 mr-5 "><a href="{{ item.url }}" class="text-yellow-300">{{ item.title }}</a></li>
-              {% endfor %}
-           </ul>
-       </div>
+</div>
+<div class="flex flex-row flex-initial bg-white">
+   <div class="flex flex-grow border-b-8 border-gray-600 border-solid"></div>
+      <div class="container mx-auto">
+            <div class="flex">
+               <ul class="flex">
+                     {% for item in site.data.menu.docs %}
+                     {% if page.url == item.url %}
+                        <li class="px-5 py-4 text-lg active"><a href="{{item.url}}" class="text-black active">{{item.title}}</a></li>
+                     {% else %}
+                        <li class="px-5 py-4 text-lg border-b-8 border-gray-600"><a class="text-blue-900" href="{{item.url}}">{{item.title}}</a></li>
+                     {% endif %}
+                  {% endfor %}
+               </ul>
+               <div class="flex flex-grow border-b-8 border-gray-600 border-solid"></div>
+            </div>
+         </div>
+      <div class="flex flex-grow border-b-8 border-gray-600 border-solid"></div>
     </div>
-
 </div>

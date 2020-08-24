@@ -13,7 +13,7 @@ docs:
 - title: Supports corporate knowledge retention and transfer
   text: New validations are retained by the Online Data Validator, so that validation becomes more and more comprehensive over time. Recurring issues link back to historical records to provide a full history of the issue.
 
-- title: Facilitates Collaboration
+- title: Facilitates collaboration
   text: The Online Data Validator provides a workspace with a simple workflow for submitters and receivers to collaborate and respond to data validity issues. It tracks issues and retains a record of discussions between submitters and receivers throughout the review process.
 
 - title: Easy to use
@@ -25,5 +25,5 @@ docs:
 - title: Secure
   text: The MDS Online Validator employs security systems and protocols that satisfy the requirements of the Australian Signals Directorate Information Security Manual. [Read more about Strategic Data's approach to designing and managing secure digital information systems.
 
-- title: Contact Us
+- title: Contact us
   text: To explore whether the Online Data Validator can help you call us on [+613 9340 9000] or email via [info@strategicdata.com.au]
