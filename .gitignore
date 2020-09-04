@@ -1,7 +1,14 @@
-_site/
+_site
 .travis/deploy-key
 .sass-cache/
 .bundle/
+.DS_STORE
+.sass-cache
+.jekyll-metadata
+node_modules
+yarn.lock
+Gemfile.lock
+_includes/tailwind.js
 vendor/
 .DS_Store
 .jekyll-cache/
