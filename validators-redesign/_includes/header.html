@@ -1,34 +1,77 @@
-<div class="flex flex-col flex-initial bg-blue-900">
-   
-    <div class="container mx-auto">
-       <div class="flex flex-col my-10 min-h-40 sm:flex-row sm:pt-5">
-          <div class="flex flex-row">
-             <div class="justify-center m-auto sm:border-r sm:border-white sm:border-opacity-25">
-               <img class="object-scale-down h-20 p-3 pr-10 bg-blue-900" src="/assets/images/header-logo-agov.png" />
+<div class="flex flex-col flex-grow bg-blue-900">
+   <div class="container mx-auto">
+      <div class="flex flex-row">
+         
+      <div class="flex-grow">
+         <div class="container mx-auto">
+            <div class="flex flex-col my-10 min-h-40 sm:flex-row sm:pt-5">
+               <div class="flex flex-row">
+                  <div class="justify-center m-auto">
+                  <img class="object-scale-down h-20 p-3 pr-10 bg-blue-900" src="/assets/images/header-logo-agov.png" />
+                  </div>
+               </div>
+               <div class="hidden mx-5 my-5 border border-white border-opacity-25 md:flex xs:border-b md:border-r md:my-0 md:mx-0"></div>
+               <div class="static flex flex-col justify-center flex-auto hidden pl-10 align-middle md:flex">
+                  <h1 class="text-3xl font-bold text-white">Online Data Validator</h1>
+                  <h2 class="text-2xl text-white">Submission and validation tool for for large data sets</h2>
+               </div>
             </div>
          </div>
-          <div class="flex flex-col justify-center flex-auto pl-10">
-             <h1 class="text-3xl font-bold text-white">Online Data Validator</h1>
-             <h2 class="text-2xl text-white">Submission and validation tool for for large data sets</h2>
-          </div>
-       </div>
-</div>
-<div class="flex flex-row flex-initial bg-white">
-   <div class="flex flex-grow border-b-8 border-gray-600 border-solid"></div>
-      <div class="container mx-auto">
-            <div class="flex">
-               <ul class="flex">
-                     {% for item in site.data.menu.docs %}
+      </div>
+   
+      <div class="flex flex-shrink align-middle">
+         <div class="flex px-5 py-4 my-auto text-white bg-blue-900 md:hidden">
+            <a href="javascript:void(0);" onclick="myFunction()">
+               <span class="flex-auto"><svg viewBox="0 0 20 20" fill="currentColor" strokeWidth="2" class="w-5 h-5"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></span>
+               </a>
+         </div>
+      </div>
+   
+      </div>
+   </div>
+
+   <div class="flex flex-row flex-initial bg-white border-b-8 border-gray-600 border-solid md:h-16">
+      <div class="w-full">
+         <div id="myLinks" class="hidden w-full mx-0 md:block md:container md:mx-auto">
+               <ul class="flex flex-col flex-shrink block md:h-16 md:flex-row">
+                     {% for item in site.data.menu.docs %}  
                      {% if page.url == item.url %}
                         <li class="px-5 py-4 text-lg active"><a href="{{item.url}}" class="text-black active">{{item.title}}</a></li>
                      {% else %}
-                        <li class="px-5 py-4 text-lg border-b-8 border-gray-600"><a class="text-blue-900" href="{{item.url}}">{{item.title}}</a></li>
+                        <li class="px-5 py-4 text-lg border-b border-gray-600 md:border-b-8"><a class="text-blue-900" href="{{item.url}}">{{item.title}}</a></li>
                      {% endif %}
                   {% endfor %}
                </ul>
-               <div class="flex flex-grow border-b-8 border-gray-600 border-solid"></div>
-            </div>
          </div>
-      <div class="flex flex-grow border-b-8 border-gray-600 border-solid"></div>
-    </div>
+      </div>
+   </div>
 </div>
+
+<script type="text/javascript">
+
+   function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.classList.contains("block")) {
+         x.classList.remove("block");
+         x.classList.add("hidden");
+      } else {
+         x.classList.add("block");
+         x.classList.remove("hidden");
+      }
+    } 
+
+   window.addEventListener('resize', function() {
+      var x = document.getElementById("myLinks");
+      viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+      if (viewportWidth >= 768) {
+         x.classList.add("block");
+         x.classList.remove("hidden");
+         console.log('resize big');
+      } else if (viewportWidth < 768) {
+         x.classList.remove("block");
+         x.classList.add("hidden");
+         console.log('resize small');
+      }
+   }, false);
+
+</script>

@@ -19,11 +19,8 @@ plugins:
 # jekyll-seo-tag configuration
 author: ""
 url: ""
-title: ""
-description: ""
-twitter:
-  username: ""
-  card: ""
+title: "Online Data Validator"
+description: "Submission and validation tool for for large data sets"
 logo: "path/to/image"
 
 

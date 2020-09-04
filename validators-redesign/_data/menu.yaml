@@ -20,3 +20,7 @@ docs:
 - title: User Guide
   url: /index.html
   name: userguide
+
+- title: Contact Us
+  url: /contactus.html
+  name: contactus

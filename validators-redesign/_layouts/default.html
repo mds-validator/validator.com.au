@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="/css/site.css">
   </head>
   <body>
+    {% include header.html %}
     <div class="flex flex-col h-screen">
-       {% include header.html %}
-      <section class="flex flex-col flex-auto bg-white">
+      <section class="flex flex-col flex-grow bg-white">
        {{ content }}
       </section>
-       {% include footer.html %}
+      {% include footer.html %}
     </div>
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}

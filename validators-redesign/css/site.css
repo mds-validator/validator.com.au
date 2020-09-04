@@ -13,7 +13,7 @@
 }
 
 .active {
-    color:red
+    color:red;
 }
 li.active {
     border-bottom: 8px solid rgb(123, 161, 211);
