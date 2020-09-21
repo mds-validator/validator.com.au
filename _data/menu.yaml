@@ -17,9 +17,9 @@ docs:
   url: /resources.html
   name: resources
 
-- title: User Guide
-  url: /index.html
-  name: userguide
+# - title: User Guide
+#   url: /index.html
+#   name: userguide
 
 - title: Contact Us
   url: /contactus.html
