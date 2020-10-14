@@ -70,7 +70,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.4)
-    rouge (3.23.0)
+    rouge (3.24.0)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -90,4 +90,4 @@ DEPENDENCIES
   jekyll-last-modified-at
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
