@@ -1,11 +1,17 @@
 version: "3"
 services:
   site:
+    read_only: true
     command: jekyll serve
     image: jekyll/jekyll:stable
+    tmpfs:
+      - /tmp
     volumes:
-      - $PWD:/srv/jekyll
-      - $PWD/vendor/bundle:/usr/local/bundle
+      - .:/srv/jekyll
+      - ./vendor/home/jekyll:/home/jekyll
+      - ./vendor/usr/gem:/usr/gem
+      - ./vendor/var/jekyll:/var/jekyll
+      - ./vendor/bundle:/usr/local/bundle
     ports:
       - 4000:4000
       - 35729:35729

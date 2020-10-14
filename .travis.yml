@@ -1,6 +1,8 @@
 language: generic
 cache:
   - docker
+  - directories:
+    - vendor
 services:
   - docker
 script: ./script/cibuild
