@@ -1,8 +1,8 @@
 # validator.com.au
 
-TODO: force a commit
+TODO: force a commit 0
 
-[![Build Status](https://www.travis-ci.org/strategicdata/validator.com.au.svg?branch=master)](https://www.travis-ci.org/strategicdata/validator.com.au)
+[![Build Status](https://www.travis-ci.com/strategicdata/validator.com.au.svg?branch=master)](https://www.travis-ci.com/strategicdata/validator.com.au)
 
 ## Development
 
