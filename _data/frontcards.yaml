@@ -5,16 +5,16 @@ docs:
   text: Data sets can be rapidly assessed, reviewed and re-submitted reducing the time required before data can be accepted and used. This reduces errors, lowers costs, and improves the accuracy and effectiveness of subsequent reporting and decision making.
 
 - title: Works with any data set and any reporting period
-  text: The Online Data Validator is designed to easily incorporate any data set and any reporting requirements. The reporting tool can be modified to generate tables and charts that are ready to present to stakeholders.
+  text: The Online Validator is designed to easily incorporate any data set and any reporting requirements. The reporting tool can be modified to generate tables and charts that are ready to present to stakeholders.
 
 - title: Spotlights trends and changes
   text: Built-in analysis and reporting provides insight into historical, regional, and organisational trends. Major changes over time or between regions are easily detected through user-friendly reporting.
 
 - title: Supports corporate knowledge retention and transfer
-  text: New validations are retained by the Online Data Validator, so that validation becomes more and more comprehensive over time. Recurring issues link back to historical records to provide a full history of the issue.
+  text: New validations are retained by the Online Validator, so that validation becomes more and more comprehensive over time. Recurring issues link back to historical records to provide a full history of the issue.
 
 - title: Facilitates collaboration
-  text: The Online Data Validator provides a workspace with a simple workflow for submitters and receivers to collaborate and respond to data validity issues. It tracks issues and retains a record of discussions between submitters and receivers throughout the review process.
+  text: The Online Validator provides a workspace with a simple workflow for submitters and receivers to collaborate and respond to data validity issues. It tracks issues and retains a record of discussions between submitters and receivers throughout the review process.
 
 - title: Easy to use
   text: The tool is designed and continually updated with best practice user experience principles in mind. All users are guided through the validation, submission and review process via a simple, easy to follow format.
@@ -23,8 +23,8 @@ docs:
   text: The application is compliant with WCAG 2.0 guidelines at the AA level.
 
 - title: Secure
-  text: The MDS Online Validator employs security systems and protocols that satisfy the requirements of the Australian Signals Directorate Information Security Manual.
+  text: The Online Validator employs security systems and protocols that satisfy the requirements of the Australian Signals Directorate Information Security Manual.
   # commenting this out til we get a link - <a class="text-blue-600" href="">Read more</a> about Strategic Data's approach to designing and managing secure digital information systems.
 
 - title: Contact us
-  text: To explore whether the Online Data Validator can help you call us on <a class="text-blue-600" href="tel:+613 9340 9000">+613 9340 9000</a> or email via <a class="text-blue-600" href="mailto:info@strategicdata.com.au">info@strategicdata.com.au</a>
+  text: To explore whether the Online Validator can help you call us on <a class="text-blue-600" href="tel:+613 9340 9000">+613 9340 9000</a> or email via <a class="text-blue-600" href="mailto:info@strategicdata.com.au">info@strategicdata.com.au</a>

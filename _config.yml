@@ -19,7 +19,7 @@ plugins:
 # jekyll-seo-tag configuration
 author: ""
 url: ""
-title: "Online Data Validator"
+title: "Online Validator"
 description: "Submission and validation tool for for large data sets"
 logo: "path/to/image"
 
