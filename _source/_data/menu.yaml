@@ -1,0 +1,26 @@
+docs_list_title:  Menu
+docs:
+
+- title: Home
+  url: /
+  name: index
+
+- title: Features
+  url: /features.html
+  name: features
+
+- title: How it works
+  url: /howitworks.html
+  name: howitworks
+
+- title: Resources
+  url: /resources.html
+  name: resources
+
+# - title: User Guide
+#   url: /index.html
+#   name: userguide
+
+- title: Contact Us
+  url: /contactus.html
+  name: contactus
