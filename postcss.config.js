@@ -3,7 +3,7 @@ const jekyllEnv = process.env.JEKYLL_ENV || "development";
 module.exports = {
   plugins: [
     require("postcss-import"),
-    require("tailwindcss")("./_includes/tailwind.config.js"),
+    require("tailwindcss")("./_source/_includes/tailwind.config.js"),
     require("autoprefixer"),
     ...(jekyllEnv != "development"
       ? [
@@ -18,4 +18,3 @@ module.exports = {
       : [])
   ]
 };
-

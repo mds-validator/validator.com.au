@@ -8,8 +8,10 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+
 # Build settings
 markdown: kramdown
+source: _source
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -18,7 +20,7 @@ plugins:
 
 # jekyll-seo-tag configuration
 author: ""
-url: ""
+#url: "0.0.0.0"
 title: "Online Validator"
 description: "Submission and validation tool for for large data sets"
 logo: "path/to/image"
@@ -37,5 +39,11 @@ exclude:
   - postcss.config.js
   - purgecss.config.js
   - netlify.toml
-  - bin
+  - bin/
+  - .git/
   - .gitignore
+  - .github/
+  - .travis/
+  - vendor/
+  - assets/heroicons/
+  - docker-compose.yml
